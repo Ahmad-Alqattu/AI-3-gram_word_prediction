@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="398.0" prefWidth="589.0" stylesheets="@New%20Text%20Document.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainControle">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="gg" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER" layoutX="86.0" layoutY="136.0" prefHeight="76.0" prefWidth="417.0" spacing="10.0" />
+            <TextField fx:id="idTF" layoutX="111.0" layoutY="83.0" prefHeight="27.0" prefWidth="369.0" style="-fx-background-radius: 220; -fx-border-color: orange; -fx-border-radius: 33;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </TextField>
+            <ListView fx:id="tt" layoutX="112.0" layoutY="136.0" prefHeight="228.0" prefWidth="365.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
